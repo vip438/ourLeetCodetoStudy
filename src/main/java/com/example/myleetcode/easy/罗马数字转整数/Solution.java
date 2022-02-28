@@ -34,7 +34,7 @@ import java.util.Map;
  */
 public class Solution {
     public static void main(String[] args) {
-        int lviii = one("LVIII");
+        int lviii = one("IV");
         System.out.println(lviii);
     }
 
@@ -54,6 +54,7 @@ public class Solution {
         map.put("P",90);
         map.put("E",400);
         map.put("F",900);
+        //把那些转化出来的直接给替代成map里面的key值
         s=s.replace("IV","A").
                 replace("IX","B").
                 replace("XL","Q").
